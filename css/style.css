@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif  ;
+}
+body{
+    background: linear-gradient(to bottom, #141e30, #2561a5);
+}
+img{
+    width:60%;
+    border-radius:30% 70% 70% 30% / 30% 30% 70% 70% ;
+    position: relative;
+}
+.container{
+    width:100%;
+}
+.name{
+    color:aqua;
+    font-size: 16px;
+    background: linear-gradient( to left, #141e3000, #83005cd0);
+    height:72px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.name span{
+    margin-left: 40px;
+    font-size: 30px;
+}
+.link{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    gap:80px;
+    margin-right:16px;
+    height:100%
+}
+.link a{
+    font-size: 20px;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.link a:hover{
+    color: aqua;
+    transform: scale(1.5);
+}
+a{
+    text-decoration:none;
+    color:lightskyblue;
+}
+.body{
+    padding: 32px 48px;
+    display: flex;
+}
+.image{
+    padding:40px 0px 0px 64px;
+    width: 50%;
+    height: 100vh;
+}
+.para{
+    padding:48px 40px;
+    width: 50%;
+}
+.para h1{
+    text-align:center;
+    color:aqua;
+    cursor: pointer;
+}
+@keyframes slide {
+    0% {
+        width: 0;
+        left: 63.7%;
+    }
+    100% {
+        width: 19%;
+        left: 63.7%;
+    }
+}
+.para h1:hover::after{
+    position: absolute;
+    content: '';
+    width:19%;
+    top:192px;
+    left: 63.7%;
+    height: 4px;
+    background: linear-gradient(to right, rgb(5, 184, 255), #ff00b3);
+    border-radius: 2px;
+    animation: slide 0.5s ease-in;
+}
+
+.para p{
+    margin-top: 16px;
+    color: #f0f0f0;
+    line-height: 1.5;
+    text-align: justify;
+
+}
+
+.para p b{
+    color:#ff00b3;
+    cursor:pointer;
+}
