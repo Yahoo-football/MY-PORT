@@ -1,19 +1,21 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'poppins', sans-serif  ;
-    font-size:24px;
+    font-family:Verdana;
+
 }
 body{
     background: linear-gradient(to bottom, #141e30, #0b407c);
 }
 img{
+    margin:16px 0px 0px 48px;
     width:60%;
     border-radius:30% 70% 70% 30% / 30% 30% 70% 70% ;
     position: relative;
 }
 .container{
     width:100%;
+    font-size:20px;
 }
 .name{
     color:aqua;
@@ -27,6 +29,7 @@ img{
 .name span{
     margin-left: 40px;
     font-size: 30px;
+    font-family: "Cal Sans", sans-serif;
 }
 .link{
     align-items: center;
@@ -39,7 +42,7 @@ img{
 .link a{
     font-size: 20px;
     color: white;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 .link a:hover{
     color: aqua;
@@ -50,9 +53,13 @@ a{
     color:aqua;
 }
 .body{
-    padding: 32px 48px;
+    display:flex;
+    padding: 32px px;
     display: flex;
-    height:80vh;
+    height:100%;
+    justify-content: center;
+    
+   
 }
 .image{
     padding:40px 0px 0px 64px;
@@ -60,13 +67,14 @@ a{
     height: 70vh;
     position:relative;
 }
-.image::after ,.image::before{
+.image::after , .image::before{
     content:'';
     position: absolute;
-    width:60%;
-    height:80%;
-    top: 1;
-    left: 0;
+    width:62%;
+    height:84%;
+    translate:48px 32px ;
+    top: 0px;
+    left: 0px;
     z-index:-1;
     background: linear-gradient(to right top, #ff00b3, aqua);
     border-radius: 77% 23% 15% 85% / 62% 73% 27% 38% ;
@@ -76,7 +84,7 @@ a{
     opacity:calc(1.5)
 }
 .para{
-    padding:48px 40px;
+    padding:120px 40px;
     width: 50%;
     height: 61vh;
 }
@@ -89,19 +97,19 @@ a{
 @keyframes slide {
     0% {
         width: 0;
-        left: 61.5%;
+        left: 63.2%;
     }
     100% {
         width: 23.5%;
-        left: 61.5%;
+        left: 63.2%;
     }
 }
 .para h1:hover::after{
     position: absolute;
     content: '';
     width:23.5%;
-    top: 199px;
-    left: 61.5%;
+    top: 275px;
+    left: 63.2%;
     height: 4px;
     background: linear-gradient(to right, aqua, #ff00b3);
     border-radius: 2px;
