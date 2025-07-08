@@ -20,3 +20,53 @@ marquee{
     color:white;
     align-content:center;
 }
+.a{
+    position:relative;
+    
+}
+.a:hover::after{
+    content:'';
+    position : absolute;
+    top:25px;
+    left:1px;
+    width:97%;
+   height:4px;
+   animation:  olala 0.8s ease;
+    background: linear-gradient(to bottom left, #ff00b3, aqua);
+}
+@keyframes olala {
+    0% {
+        width: 0;
+        left: 1px;
+    }
+    100% {
+        width: 97%;
+        left: 1px;
+    }
+}
+.b{
+    position:relative;
+}
+.b:hover::after{
+    content:'';
+    position : absolute;
+    top:25px;
+    left:1px;
+    width:97%;
+   height:4px;
+   animation:  olala 0.8s ease;
+    background: linear-gradient(to bottom left, #ff00b3, aqua);
+}
+.c{
+    position:relative;
+}
+.c:hover::after{
+    content:'';
+    position : absolute;
+    top:25px;
+    left:1px;
+    width:97%;
+   height:4px;
+   animation:  olala 0.8s ease;
+    background: linear-gradient(to bottom left, #ff00b3, aqua);
+}
