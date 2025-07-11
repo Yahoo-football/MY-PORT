@@ -21,6 +21,7 @@ marquee{
     align-content:center;
 }
 .a{
+    color:aqua;
     position:relative;
     
 }
@@ -69,4 +70,14 @@ marquee{
    height:4px;
    animation:  olala 0.8s ease;
     background: linear-gradient(to bottom left, #ff00b3, aqua);
+}
+
+.span{
+    color: #ffffff;
+    font-size: 20px;
+    border-right: solid 2px #ff00b3;
+    width: 100%;
+    height:100vh;
+    top:0px;
+    position:sticky;
 }
