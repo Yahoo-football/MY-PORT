@@ -4,6 +4,27 @@
     font-family:Verdana;
 
 }
+.icon{
+    color:aqua;
+    font-size:30px;
+    padding:20px;
+    width:50%;
+    display:flex;
+    justify-content:space-evenly;
+}
+i{
+    text-align:center;
+    align-content:center;
+    width:35px;
+    height:35px;
+    border:solid aqua;
+    border-radius:100%;
+}
+i:hover{
+    background: aqua;
+    color:rgb(51, 0, 51);
+    box-shadow:0px 0px 25px aqua;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -133,7 +154,7 @@ a{
 button{
     background: #141e30;
     display: block;
-    margin-top: 40px;
+    margin-top: 20px;
     padding: 16px 32px;
     position: relative;
     border: 2px solid rgb(255, 255, 255);
