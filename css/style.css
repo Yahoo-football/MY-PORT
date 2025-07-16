@@ -38,9 +38,10 @@ img:hover{
 }
 .name span{
     margin-left: 40px;
-    font-size: 30px;
+    font-size: 20px;
     font-family: "Cal Sans", sans-serif;
 }
+
 .link{
     align-items: center;
     display: flex;

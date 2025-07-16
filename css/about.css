@@ -1,14 +1,38 @@
 .About{
     height:100vh;
     width:100%;
-    background:white;
-    padding :5% 0%;
+    padding :2.5% 0%;
 }
 .in-about{
-    background: rgb(0, 0, 0);
     height:90%;
     width:96%;
     margin-left:2%;
     margin-right:2%;
     color:white;
+}
+.card{
+    flex-wrap:wrap;
+    width:90%;
+    margin:5%;
+    height:80%;
+    display:flex;
+    gap:16px;
+    padding:16px;
+    justify-content:center;
+    color:black;
+}
+.item{
+    background:white;
+    width:300px;
+    height:200px;
+    transition:scale 1s ;
+    border-radius:24px;
+    text-align:center;   
+}
+.item span{
+    background: pink;
+    height:50%;
+}
+.item:hover{
+    scale:108%;
 }
