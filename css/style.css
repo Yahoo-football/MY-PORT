@@ -20,7 +20,22 @@ i{
     border:solid aqua;
     border-radius:100%;
 }
-i:hover{
+.ball:hover{
+    background: aqua;
+    color:rgb(51, 0, 51);
+    box-shadow:0px 0px 25px aqua;
+}
+.f:hover{
+    background: aqua;
+    color:rgb(51, 0, 51);
+    box-shadow:0px 0px 25px aqua;
+}
+.i:hover{
+    background: aqua;
+    color:rgb(51, 0, 51);
+    box-shadow:0px 0px 25px aqua;
+}
+.l:hover{
     background: aqua;
     color:rgb(51, 0, 51);
     box-shadow:0px 0px 25px aqua;
@@ -123,7 +138,7 @@ a{
     color: aqua;
     width:80%;
     cursor: pointer;
-    font-size:40px;
+    font-size:42px;
 }
 
 .para h1:hover::after{
@@ -193,7 +208,7 @@ button:hover{
     height:0px;
     color:aqua;
     content:'DEVELOPER';
-    animation: words 10s infinite;
+    animation: words 8s infinite;
 }
 
 @keyframes words {
