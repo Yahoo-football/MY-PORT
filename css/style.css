@@ -12,7 +12,7 @@
     display:flex;
     justify-content:space-evenly;
 }
-i{
+.icon i{
     text-align:center;
     align-content:center;
     width:35px;
@@ -247,4 +247,24 @@ button:hover{
         width: 31.8%;
         left: 54.3%;
     }
+}
+
+.balls,.facebook{
+    font-size: 50px;
+    color: aqua;
+    /* animation: spin 10s linear infinite; */
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #ff00b3, aqua);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: 0px 0px 10px #ff00b3, 0px 0px 20px aqua;
 }
