@@ -84,3 +84,7 @@ marquee{
    animation:  olala 0.8s ease;
     background: linear-gradient(to bottom left, aqua, #ff00b3);
 }
+.git{
+    font-size: 90px;
+    color:black;
+}
