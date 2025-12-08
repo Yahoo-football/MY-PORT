@@ -59,14 +59,13 @@ body{
     border-radius:30% 70% 70% 30% / 30% 30% 70% 70% ;
     width: 370px;
     height: 450px;
-    transition: scale 0.8s;
+    transition: transform 0.8s;
     position: relative;
 }
-
 .img::before,.img::after{
     content:''; 
     position:absolute;
-    background-image:conic-gradient(from var(--angle),#ffffff00,rgba(0, 195, 255, 0.747));
+    background-image:conic-gradient(from var(--angle),#ffffff00,rgb(0, 195, 255));
     top: -6px;
     left: -6px;
     padding: 6px;
